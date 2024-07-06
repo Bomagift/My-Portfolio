@@ -1,4 +1,3 @@
-/* General Navbar Styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -20,7 +19,15 @@
 }
 
 .navbar-logo span {
-  color: #F9DC5C;
+  color: #f9dc5c;
+}
+
+.ho-me{
+  color: #f9dc5c;
+}
+
+.ho-me:hover{
+  color: #fff;
 }
 
 .navbar-links {
@@ -40,7 +47,7 @@
 }
 
 .navbar-links a:hover {
-  color: #F9DC5C;
+  color: #f9dc5c;
 }
 
 .navbar-toggle {

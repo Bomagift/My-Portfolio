@@ -10,12 +10,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="#home">Bo<span>ma</span></a>
+        <a href="#home">Bo<span>ma.</span></a>
       </div>
       <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
         <ul className="navbar-links">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home"><span className="ho-me">Home</span></a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -35,7 +35,9 @@ const Navbar = () => {
           <div className="fries-bar"></div>
         </div>
       </div>
+      
     </nav>
+   
   );
 };
 

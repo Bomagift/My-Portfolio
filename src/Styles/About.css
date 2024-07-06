@@ -2,7 +2,8 @@
     background-color:  #100F0F;
     padding: 2em 5em;
     text-align: left;
-
+    display: flex;
+    
 }
 
 #about h1{
@@ -11,7 +12,6 @@
     margin-top: 2em;
     font-size: 3.5em;
 }
-
 #about h2{
     color:#E3170A  ;
     font-size: 3em;
@@ -30,7 +30,10 @@
 
     #about{
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
+
     #about p{
         font-size: 1em;
         text-align: center;
@@ -42,5 +45,11 @@
     
     #about h2{
         font-size: 1.2em;
+    }
+
+
+    img{
+        margin-top: 3em;
+       
     }
 }
