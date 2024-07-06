@@ -10,12 +10,12 @@ const Navbar = () => {
       
       <div className="navbar-logo">
         
-        <a href="#home">Boma_Codes</a>
+        <a href="#home">Bo<span>ma</span></a>
       </div>
       <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
         
         <li>
-          <a href="#home">Home</a>
+          <a href="#home"> <span className="ho-me">Home</span></a>
         </li>
         <li>
           <a href="#about">About</a>

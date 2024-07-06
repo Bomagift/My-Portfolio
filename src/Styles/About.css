@@ -1,17 +1,24 @@
 #about{
-    background-color: #fff;
-    padding: 2em 0;
-    text-align: center;
+    background-color: #100f0f;
+    padding: 2em 5em;
+    text-align: left;
+
 }
 
 #about h1{
-    color: #007bff;
+    color: #e7e8ea;
     margin-bottom: 0.5em;
+    margin-top: 5em;
+}
+
+#about h2{
+    color: #ffcd39 ;
 }
 
 #about p{
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+    color: #fff;
 }
 
 /* mobile responsiveness */
