@@ -1,0 +1,23 @@
+#about{
+    background-color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#about h1{
+    color: #007bff;
+    margin-bottom: 0.5em;
+}
+
+#about p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* mobile responsiveness */
+@media (max-width: 768px) {
+    #about p{
+        padding: 0 1em;
+    }
+    
+}
