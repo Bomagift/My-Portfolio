@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="navbar-toggle" onClick={toggleMenu}>
-        {" "}
+        
         {isMenuOpen ? "✖" : "☰"} {}
       </div>
     </nav>

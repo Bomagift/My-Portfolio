@@ -18,10 +18,10 @@
 }
 
 .navbar-logo span{
-  color: #ffcd39;
+  color:#F9DC5C;
 }
 .ho-me{
-  color: #ffcd39;
+  color: #F9DC5C;
 }
 
 .ho-me:hover{
@@ -40,8 +40,9 @@
   font-weight: bold;
   transition: color 0.3s;
 }
+
 .navbar-links a:hover {
-  color: #ffcd39;
+  color: #F9DC5C;
 }
 .navbar-toggle {
   display: none;

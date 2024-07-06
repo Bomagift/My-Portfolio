@@ -1,5 +1,5 @@
 #about{
-    background-color: #100f0f;
+    background-color:  #100F0F;
     padding: 2em 5em;
     text-align: left;
 
@@ -8,23 +8,39 @@
 #about h1{
     color: #e7e8ea;
     margin-bottom: 0.5em;
-    margin-top: 5em;
+    margin-top: 2em;
+    font-size: 3.5em;
 }
 
 #about h2{
-    color: #ffcd39 ;
+    color:#E3170A  ;
+    font-size: 3em;
 }
 
 #about p{
     max-width: 400px;
     text-align: left;
     color: #fff;
+    font-size: 1.5em;
 }
 
 /* mobile responsiveness */
 @media (max-width: 768px) {
+
+
+    #about{
+        text-align: center;
+    }
     #about p{
-        padding: 0 1em;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #about h1{
+        font-size: 1.6em;
     }
     
+    #about h2{
+        font-size: 1.2em;
+    }
 }
