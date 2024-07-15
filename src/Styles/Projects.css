@@ -1,9 +1,9 @@
 #projects {
-  background-color: #f9f9f9;
+  background-color: #5a6268;
   padding: 2em 0;
 }
 #projects h1 {
-  color: #007bff;
+  color: yellow;
   text-align: center;
   margin-bottom: 1.5em;
 }
@@ -14,15 +14,18 @@
   padding: 0 1em;
 }
 #projects li {
-  background-color: #ffffff;
+  background-color: lightgoldenrodyellow;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1.5em;
   text-align: center;
-  transition: box-shadow 0.3s;
+  transition: transform 0.2s;
+  flex: 1 1 calc(20% - 20px);
+  
 }
 #projects li:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
 }
 #projects h2 {
   color: #333;
@@ -34,7 +37,7 @@
 
 #projects a {
   display: inline-block;
-  background-color: #007bff;
+  background-color:  #60231e;;
   color: white;
   padding: 0.5em 1em;
   border-radius: 4px;
@@ -42,7 +45,7 @@
   margin: 5px;
 }
 #projects a:hover {
-  background-color: #0056b3;
+  background-color: #1f0907;
 }
 .code-link {
   background-color: #6c757d;

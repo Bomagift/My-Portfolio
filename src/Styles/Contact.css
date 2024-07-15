@@ -1,11 +1,12 @@
 #contact{
-    background-color: #fff;
+    background-color: #7f5d5d;
     padding: 2em 0;
     text-align: center;
+    
 }
 
 #contact h1{
-    color: #007bff;
+    color: #fff;
     margin-bottom: 1em;
 }
 
@@ -20,12 +21,12 @@ display: inline;
 padding: 0.5em 1em;
 transition: background-color 0.3s;
 text-decoration: none;
-color: black;
+color: rgb(240, 240, 25);
 cursor: pointer;
 }
 
 #contact a:hover{
-    background-color: #0056b3;
+    background-color: rgb(58, 26, 26);
     border-radius: 4px;
     
 }

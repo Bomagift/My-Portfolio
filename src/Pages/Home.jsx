@@ -2,6 +2,7 @@ import About from "../components/About";
 import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 import "../Styles/Home.css"
 
 function HomePage() {
@@ -11,7 +12,7 @@ function HomePage() {
       <About />
       <Projects />
       <Contact />
-    
+    <Footer/>
     </div>
   );
 }
