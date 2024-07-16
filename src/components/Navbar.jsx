@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="#home">Bo<span>ma.</span></a>
+        <a href="#home"><span>Bo</span>ma.</a>
       </div>
       <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
         <ul className="navbar-links">

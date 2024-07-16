@@ -1,20 +1,24 @@
 #about{
     background-color:  #100F0F;
-    padding: 2em 5em;
     text-align: left;
     display: flex;
-    
+    justify-content: space-around;
 }
 
 #about h1{
     color: #e7e8ea;
     margin-bottom: 0.5em;
-    margin-top: 2em;
+    margin-top: 0.3em;
     font-size: 3.5em;
 }
 #about h2{
-    color:#E3170A  ;
+    color:#fff ;
     font-size: 3em;
+}
+
+#about h2 span{
+    color: black;
+    background-color: yellow;
 }
 
 #about p{
@@ -23,6 +27,18 @@
     color: #fff;
     font-size: 1em;
 }
+
+.Container2{
+    max-width: 600px;
+    padding: 2em;
+}
+
+#about img{
+    max-width: 400px;
+    border-radius: 5px;
+    padding-bottom: 3em;
+}
+
 
 /* mobile responsiveness */
 @media (max-width: 768px) {
