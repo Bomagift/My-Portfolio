@@ -59,7 +59,7 @@
 
 .skills-grid {
   display: flex;
-  margin-left: 20em;
+  margin-left: 15em;
   flex-wrap: wrap;
   margin-top: 20px;
 }

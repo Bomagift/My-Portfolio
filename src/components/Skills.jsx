@@ -1,5 +1,4 @@
 import "../Styles/Skills.css";
-import jsIcon from "../../public/images/9035061_logo_javascript_icon 1.png"
 import SkillCard from "../components/SkillCard";
 const skills = [
   { name: "JavaScript",
@@ -10,6 +9,8 @@ const skills = [
      icon: "images/Vector (24).png" },
   { name: "React",
      icon: "images/7423888_react_react native_icon 1.png" },
+     { name: "Html",
+      icon: "images/R-removebg-preview (1).png" },
 ];
 const Skills = () => {
   return (

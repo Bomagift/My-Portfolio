@@ -6,7 +6,7 @@ import '../Styles/Projects.css';
 const projects = [
   {
     title: 'Netflix clone',
-    image: 'images/image 1 (2).png',
+    image: 'images/Frame 5 (3).png',
     viewCode: 'https://github.com/Bomagift/Netflix-clone-learnable-task',
     viewLive: 'https://netflix-clone-learnable-task.vercel.app/'
   },

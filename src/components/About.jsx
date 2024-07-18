@@ -7,8 +7,8 @@ function About() {
 
       <div className="Container2">
 
-        <h1>Hi, I'm Boma Gift Obomanu, a</h1>
-        <h2><span>Frontend dev</span>eloper</h2>
+        <h1>Hi, I'm Boma Gift Obomanu, </h1>
+        <h2><span>A Frontend dev</span>eloper</h2>
         <p>
           I am a passionate web developer with expertise
           in React.js ,Css and Javascript. 
