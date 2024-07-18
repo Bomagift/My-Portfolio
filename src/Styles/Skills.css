@@ -59,7 +59,7 @@
 
 .skills-grid {
   display: flex;
-  justify-content: space-around;
+  margin-left: 20em;
   flex-wrap: wrap;
   margin-top: 20px;
 }
@@ -73,5 +73,10 @@
   .skills h3 {
     margin-top: 10em;
     font-size: 0.8em;
+  }
+
+  .skills-grid{
+    margin-left: 6em;
+   
   }
 }
