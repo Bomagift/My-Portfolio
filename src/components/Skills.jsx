@@ -1,4 +1,5 @@
 import "../Styles/Skills.css";
+import jsIcon from "../../public/images/9035061_logo_javascript_icon 1.png"
 import SkillCard from "../components/SkillCard";
 const skills = [
   { name: "JavaScript",
