@@ -3,16 +3,18 @@
     text-align: left;
     display: flex;
     justify-content: space-around;
+
 }
 
 #about h1{
-    color: #e7e8ea;
+    color: #EEEEEE;
     margin-bottom: 0.5em;
     margin-top: 0.3em;
     font-size: 3.5em;
+    margin-top: 1.5em;
 }
 #about h2{
-    color:#fff ;
+    color:#EEEEEE;
     font-size: 3em;
 }
 
@@ -24,8 +26,10 @@
 #about p{
     max-width: 400px;
     text-align: left;
-    color: #fff;
-    font-size: 1em;
+    color: #8C8C8C;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "inter";
 }
 
 .Container2{
@@ -37,6 +41,27 @@
     max-width: 400px;
     border-radius: 5px;
     padding-bottom: 3em;
+}
+
+.available{
+    display: flex;
+    font-size: 16px;
+    color: #B0B0B0;
+    gap: 0.5rem;
+    font-family: "sailec-bold";
+    font-weight: bold;
+
+   
+}
+
+.available img{
+    height: 1rem;
+    width: 1rem;
+    margin-top: 0;
+}
+
+.Status-dot{
+margin-right: 0.5rem;
 }
 
 
@@ -73,4 +98,6 @@
     #about img{
        max-width: 350px;
     }
+    .available{
+    display: none;
 }

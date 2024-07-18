@@ -14,6 +14,11 @@ function About() {
           in React.js ,Css and Javascript. 
           I love creating visually appealing
           and user-friendly websites.  </p>
+
+        <div className="available">
+        <span className="Status-dot"><img src="images/Frame 25.png" alt="" /></span>
+          Available for Work
+        </div>
           </div>
           <div className="imge4">
        <img src="images/IMG_6717.jpeg" alt="" id="image" />

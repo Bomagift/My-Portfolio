@@ -7,7 +7,7 @@
 .about-me-title {
   font-size: 2rem;
   margin-bottom: 2.5rem;
-  color: white;
+  color: #EEEEEE;
   margin-top: 4rem;
 }
 .about-me-content {
@@ -26,13 +26,15 @@
 .about-me-text {
   max-width: 600px;
   text-align: left;
+  color: #8C8C8C;
 }
 .about-me-text p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  
 }
 .about-me-text strong {
-  color: #fff; 
+  color: #eee; 
 }
 
 @media (max-width: 768px) {

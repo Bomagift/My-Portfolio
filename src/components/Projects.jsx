@@ -35,7 +35,7 @@ const projects = [
     viewLive: 'https://students-bio.vercel.app/'
   },
   {
-    title: 'TourAfric',
+    title: 'TourAfrik',
     image: 'images/image 5 (1).png',
     viewCode: 'https://github.com/Daniel7303/TourAfric',
     viewLive: 'https://trav-page-g5.vercel.app/'

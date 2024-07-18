@@ -44,8 +44,8 @@
 .dot {
   color: #F9DC5C;
   position: relative;
-  top: -0.6em;
-  left: -1.32em;
+  top: -0.55em;
+  left: -1.2em;
 }
 
 @keyframes slideIn {

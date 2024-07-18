@@ -3,7 +3,7 @@ const AboutMe = () => {
   return (
     <section className="about-me">
       
-      <h2 className="about-me-title">A little bit about myself</h2>
+      <h2 className="about-me-title">A little bit more  about myself</h2>
       <div className="about-me-content">
     
         <img

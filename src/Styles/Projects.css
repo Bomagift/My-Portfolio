@@ -15,7 +15,7 @@
 
 .projects-header h2 {
   font-size: 4em;
-  color: white;
+  color: #EEEEEE;
 }
 
 .projects-grid {
@@ -46,6 +46,7 @@
 .project-card h4 {
   margin: 10px 0;
   color: #EEEEEE;
+  font-family: "inter";
 }
 
 .project-links {
@@ -60,6 +61,8 @@
   border-radius: 5px;
   color: #CBCBCB;
   text-decoration: none;
+  margin-top: 1em;
+  font-family: "inter";
 }
 
 .project-link:hover {
