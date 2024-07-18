@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className="about-me-text">
           
           <p>
-            I'm Boma Gift Ob0manu, a creative and dynamic frontend developer
+            I'm Boma Gift Obomanu, a creative and dynamic frontend developer
             with a love for <strong>React, JavaScript, CSS, and HTML</strong>.
             My mission? To craft stunning, user-friendly websites that make the
             internet a better place, one pixel at a time.
