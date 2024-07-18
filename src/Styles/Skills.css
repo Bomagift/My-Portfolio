@@ -1,5 +1,5 @@
 .skills {
-  padding: 40px 20px;
+  padding: 40px 10px;
   background-color: #333;
   color: white;
   margin-top: 2em;
@@ -42,7 +42,7 @@
 }
 
 .dot {
-  color: yellow;
+  color: #F9DC5C;
   position: relative;
   top: -0.6em;
   left: -1.32em;

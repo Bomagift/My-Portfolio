@@ -18,7 +18,7 @@
 
 #about h2 span{
     color: black;
-    background-color: yellow;
+    background-color: #F9DC5C;
 }
 
 #about p{
@@ -40,7 +40,7 @@
 }
 
 
-/* mobile responsiveness */
+
 @media (max-width: 768px) {
 
 
@@ -51,21 +51,26 @@
     }
 
     #about p{
-        font-size: 0.7em;
+        font-size: 0.9em;
         text-align: center;
     }
 
     #about h1{
-        font-size: 1.8em;
+        margin-top: 1em;
+        font-size: 2.5em;
     }
     
     #about h2{
-        font-size: 1.6em;
+        font-size: 1.9em;
     }
 
 
     img{
         margin-top: 3em;
        
+    }
+
+    #about img{
+       max-width: 350px;
     }
 }

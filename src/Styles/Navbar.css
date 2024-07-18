@@ -82,7 +82,7 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Mobile Responsiveness */
+
 
 @media (max-width: 768px) {
   .navbar-menu {

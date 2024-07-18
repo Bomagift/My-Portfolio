@@ -1,6 +1,6 @@
 import About from "../components/About";
 // import Contact from "../components/Contact";
-// import Projects from "../components/Projects";
+import Projects from "../components/Projects";
 import Navbar from "../components/Navbar"
 // import Footer from "../components/Footer"
 import "../Styles/Home.css"
@@ -14,7 +14,7 @@ function HomePage() {
       <About />
       <Skills/>
       <AboutMe/>
-      {/* <Projects /> */}
+      <Projects />
       {/* <Contact />
     <Footer/>
     */}

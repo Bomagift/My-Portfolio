@@ -1,24 +1,52 @@
-import ProjectCard from "../components/ProjectCard";
-import "../Styles/Projects.css"
+import React from 'react';
+import ProjectCard from '../components/ProjectCard';
+import '../Styles/Projects.css';
+
+// Sample project data
 const projects = [
-  { title: "Project 1", image: "path-to-image1.jpg" },
-  { title: "Project 2", image: "path-to-image2.jpg" },
-  { title: "Project 3", image: "path-to-image3.jpg" },
-  { title: "Project 4", image: "path-to-image4.jpg" },
-  { title: "Project 5", image: "path-to-image5.jpg" },
-  { title: "Project 6", image: "path-to-image6.jpg" },
+  {
+    title: 'Netflix clone',
+    image: 'images/image 1 (2).png',
+    viewCode: 'https://github.com/Bomagift/Netflix-clone-learnable-task',
+    viewLive: 'https://netflix-clone-learnable-task.vercel.app/'
+  },
+  {
+    title: 'SkillHub LMS',
+    image: 'images/image 3.png',
+    viewCode: 'https://github.com/GenesysLearnable/LMS-A-FE-1',
+    viewLive: 'https://whisper-app-three.vercel.app/'
+  },
+  {
+    title: 'Whisper App',
+    image: 'images/Frame 5 (1).png',
+    viewCode: 'https://github.com/jaminhood/Whisper',
+    viewLive: 'https://skillhub-learn.netlify.app/'
+  },
+  {
+    title: 'To-Do list',
+    image: 'images/image 4.png',
+    viewCode: 'https://github.com/Bomagift/LEARNABLE-TO-DO-LIST',
+    viewLive: 'https://learnable-to-do-list.vercel.app/'
+  },
+  {
+    title: 'Student Grading System',
+    image: 'images/Frame 5 (2).png',
+    viewCode: 'https://github.com/Bomagift/students-bio',
+    viewLive: 'https://students-bio.vercel.app/'
+  },
+  {
+    title: 'TourAfric',
+    image: 'images/image 5 (1).png',
+    viewCode: 'https://github.com/Daniel7303/TourAfric',
+    viewLive: 'https://trav-page-g5.vercel.app/'
+  }
 ];
+
 const Projects = () => {
   return (
-    <section className="Projects">
-      
-        <h2 className="my-skills1">
-          My Projects
-          </h2>
-          <div className="skills-header1">
-          <h3>My
-          Projects</h3>
-          <span className="dot1">.</span>
+    <section className="projects">
+      <div className="projects-header">
+        <h2 className="my-projects">My Projects</h2>
       </div>
       <div className="projects-grid">
         {projects.map((project, index) => (
@@ -28,4 +56,5 @@ const Projects = () => {
     </section>
   );
 };
+
 export default Projects;
