@@ -75,6 +75,10 @@
    max-width: 420px;
    height: 320px;
   }
+
+  .projects-grid{
+    margin-left: 1em;
+  }
 }
 
 @media (max-width: 480px) {
