@@ -2,7 +2,7 @@ import About from "../components/About";
 // import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 import Navbar from "../components/Navbar"
-// import Footer from "../components/Footer"
+import Footer from "../components/Footer"
 import "../Styles/Home.css"
 import Skills from "../components/Skills";
 import AboutMe from "../components/AboutMe";
@@ -15,9 +15,9 @@ function HomePage() {
       <Skills/>
       <AboutMe/>
       <Projects />
-      {/* <Contact />
-    <Footer/>
-    */}
+      {/* {/* <Contact /> } */}
+   <Footer/>
+ 
     </div>
   );
 }
