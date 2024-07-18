@@ -10,7 +10,7 @@ const AboutMe = () => {
           src="images/image22.jpg"
           alt="Boma Gift Obumanu"
           className="about-me-image"
-        />{" "}
+        />
         <div className="about-me-text">
           
           <p>
