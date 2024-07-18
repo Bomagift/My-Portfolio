@@ -6,8 +6,9 @@
 }
 .about-me-title {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   color: white;
+  margin-top: 4rem;
 }
 .about-me-content {
   display: flex;
