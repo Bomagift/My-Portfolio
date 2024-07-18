@@ -14,13 +14,13 @@ const projects = [
     title: 'SkillHub LMS',
     image: 'images/image 3.png',
     viewCode: 'https://github.com/GenesysLearnable/LMS-A-FE-1',
-    viewLive: 'https://whisper-app-three.vercel.app/'
+    viewLive: 'https://skillhub-learn.netlify.app/'
   },
   {
     title: 'Whisper App',
     image: 'images/Frame 5 (1).png',
     viewCode: 'https://github.com/jaminhood/Whisper',
-    viewLive: 'https://skillhub-learn.netlify.app/'
+    viewLive: ' https://whisper-app-three.vercel.app/'
   },
   {
     title: 'To-Do list',
