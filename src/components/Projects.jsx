@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
+import "../Styles/Projects.css"
 const projects = [
   { title: "Project 1", image: "path-to-image1.jpg" },
   { title: "Project 2", image: "path-to-image2.jpg" },
@@ -9,17 +10,21 @@ const projects = [
 ];
 const Projects = () => {
   return (
-    <section className="projects">
-      {" "}
-      <h2 className="my-projects">
-        My <span className="highlight">Projects</span>
-      </h2>{" "}
+    <section className="Projects">
+      
+        <h2 className="my-skills1">
+          My Projects
+          </h2>
+          <div className="skills-header1">
+          <h3>My
+          Projects</h3>
+          <span className="dot1">.</span>
+      </div>
       <div className="projects-grid">
-        {" "}
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
-        ))}{" "}
-      </div>{" "}
+        ))}
+      </div>
     </section>
   );
 };
