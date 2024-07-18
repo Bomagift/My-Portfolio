@@ -10,21 +10,21 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="Home"><span>Bo</span>ma.</a>
+        <a href="/"><span>Bo</span>ma.</a>
       </div>
       <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
         <ul className="navbar-links">
           <li>
-            <a href="Home"><span className="ho-me">Home</span></a>
+            <a href="/"><span className="ho-me">Home</span></a>
           </li>
           <li>
-            <a href="AboutMe">About</a>
+            <a href="/aboutMe">About</a>
           </li>
           <li>
-            <a href="Projects">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li>
-            <a href="Contact">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
