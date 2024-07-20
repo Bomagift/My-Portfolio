@@ -10,21 +10,31 @@
 .connect-section {
   padding: 20px;
 }
-.connect {
-  font-size: 6rem;
-  font-weight: bold;
+
+.skills-header3{
   position: relative;
+  display: inline-block;
 }
+.connect {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
+
+}
+
 .dot2 {
   color:  #F9DC5C;
 }
 
 .contacts-text{
     color: #EEEEEE;
-    margin-right: 5em;
+    margin: 0;
+    top: 51%;
+    left: 55%;
     position: absolute;
-    margin-top: 0.9em;
+    font-size: 20px;
 }
+
 .contact-button {
   background-color: #444;
   border: none;
@@ -37,6 +47,7 @@
   margin: 20px 0;
   cursor: pointer;
   border-radius: 20px ;
+  margin-top: 2rem;
 }
 
 .contact-button:hover{
@@ -57,13 +68,16 @@
     .icons img{
         width: 20px;
         height: 20px;
+        margin-top: 1rem;
     }
 
     .icons{
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .contact{
         height: 80vh;
+        display: flex;
+        justify-content: center;
     }
 }

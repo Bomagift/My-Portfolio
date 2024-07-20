@@ -11,9 +11,9 @@ function Contact() {
             <br />
             connect<span className="dot2">.</span>
           </h1>
-          {/* <h3 className="contacts-text">let’s get in touch</h3> */}
+          <h3 className="contacts-text">let’s get in touch</h3>
         </div>
-
+<div className="contact5">
         <a
           href="mailto:obomanuboma10@gmail.com.com"
           target="_blank"
@@ -21,7 +21,7 @@ function Contact() {
         >
           <button className="contact-button">contact me</button>
         </a>
-
+        </div>
         <div className="icons">
           <a
             href="https://www.facebook.com/boma.obomanu.7?mibextid=LQQJ4d"
