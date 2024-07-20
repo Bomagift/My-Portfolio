@@ -1,32 +1,69 @@
-#contact{
-    background-color: #7f5d5d;
-    padding: 2em 0;
-    text-align: center;
-    
+.contact {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.connect-section {
+  padding: 20px;
+}
+.connect {
+  font-size: 6rem;
+  font-weight: bold;
+  position: relative;
+}
+.dot2 {
+  color:  #F9DC5C;
 }
 
-#contact h1{
-    color: #fff;
-    margin-bottom: 1em;
+.contacts-text{
+    color: #EEEEEE;
+    margin-right: 5em;
+    position: absolute;
+    margin-top: 0.9em;
+}
+.contact-button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 20px ;
 }
 
-#contact p{
-    max-width: 600px;
-    margin: 0 auto 1.5em;
-    
+.contact-button:hover{
+    background-color: #F9DC5C;
+    color: black;
 }
-
-#contact a{
-display: inline;    
-padding: 0.5em 1em;
-transition: background-color 0.3s;
-text-decoration: none;
-color: rgb(240, 240, 25);
-cursor: pointer;
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2rem;
 }
+.icons img {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 768px) {
+    .icons img{
+        width: 20px;
+        height: 20px;
+    }
 
-#contact a:hover{
-    background-color: rgb(58, 26, 26);
-    border-radius: 4px;
-    
+    .icons{
+        gap: 1rem;
+    }
+
+    .contact{
+        height: 80vh;
+    }
 }

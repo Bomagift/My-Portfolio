@@ -36,10 +36,6 @@
   animation: slideIn 5s ease-in-out;
 }
 
-.highlight {
-  position: relative;
-  display: inline-block;
-}
 
 .dot {
   color: #F9DC5C;

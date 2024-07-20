@@ -5,4 +5,9 @@ footer{
     text-align: center;
     width: 100%;
     bottom: 0;
+    padding-left: 1rem;
+}
+
+footer span{
+    color: #F9DC5C;
 }

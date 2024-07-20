@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <footer>
-        <p>&copy; 2024 Obomanu Boma Gift. All rights reserved.</p>
+        <p>&copy;2024 <span>Bo</span>ma.</p>
       </footer>
     </div>
   );

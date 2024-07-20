@@ -1,5 +1,5 @@
 import About from "../components/About";
-// import Contact from "../components/Contact";
+import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
@@ -15,7 +15,7 @@ function HomePage() {
       <Skills/>
       <AboutMe/>
       <Projects />
-      {/* {/* <Contact /> } */}
+       <Contact /> 
    <Footer/>
  
     </div>
